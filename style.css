@@ -1,0 +1,97 @@
+/* Style global */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    text-align: center;
+    background-color: #0078d7;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem 0;
+}
+
+.presentation {
+    flex: 1;
+    text-align: left;
+}
+
+.presentation h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.presentation p {
+    margin: 0.5rem 0;
+}
+
+.presentation a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+.presentation a:hover {
+    text-decoration: underline;
+}
+
+/* Photo Section */
+.photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contrôle du volume */
+.volume-control {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.volume-control label {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.volume-control input[type="range"] {
+    width: 200px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #555;
+}

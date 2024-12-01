@@ -72,3 +72,26 @@ main {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Contrôle du volume */
+.volume-control {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.volume-control label {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.volume-control input[type="range"] {
+    width: 200px;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #555;
+}

@@ -1,0 +1,24 @@
+body {
+  background-color: royalblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Liberation Sans', monospace, cursive;
+  font-size: 40px;
+}
+
+p {
+  font-family: 'Arial', cursive;
+  font-size: 20px;
+  text-align: left;
+  color: gold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 2;
+  font-family: 'Liberation Sans', monospace;
+}
